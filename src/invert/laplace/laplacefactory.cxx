@@ -1,7 +1,9 @@
 
 #include <globals.hxx>
 #include <boutexception.hxx>
+#ifndef _MSC_VER
 #include <strings.h>
+#endif
 
 #include "laplacefactory.hxx"
 

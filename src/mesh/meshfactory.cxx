@@ -2,12 +2,15 @@
 #include "meshfactory.hxx"
 
 #include <options.hxx>
-#include <strings.h>
 #include <output.hxx>
 #include <dataformat.hxx>
 #include <boutexception.hxx>
 
 #include "impls/bout/boutmesh.hxx"
+
+#ifndef _MSC_VER
+#include <strings.h>
+#endif
 
 MeshFactory *MeshFactory::instance = nullptr;
 

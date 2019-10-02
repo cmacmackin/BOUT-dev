@@ -3,7 +3,9 @@
 #include <invert_parderiv.hxx>
 #include <boutexception.hxx>
 
+#ifndef _MSC_VER
 #include <strings.h>
+#endif
 
 #include "parderiv_factory.hxx"
 

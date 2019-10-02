@@ -4,7 +4,9 @@
 #include <boutexception.hxx>
 #include <bout/invert/laplacexz.hxx>
 
+#ifndef _MSC_VER
 #include <strings.h>
+#endif
 
 LaplaceXZ* LaplaceXZ::create(Mesh *m, Options *options, const CELL_LOC loc) {
   if (m == nullptr) {
