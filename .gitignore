@@ -42,3 +42,4 @@ src/.libfast
 build/
 build*/
 /.vs
+/CMakeSettings.json
